@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>coder主页</title>
+		<link rel="stylesheet" type="text/css" href="../mystyle.css" />
+		<script src="../myJS.js"></script>
+	</head>
+
+	<body onLoad="welcome('郑磊')" onUnload="bye('郑磊')">
+		<div id="container">
+			<div id="header-left">
+				<div id="header-left-h"><h1 id="main" class="font2">献给热爱IT的你</h1></div>
+				<div id="header-left-logo"><img id="mainbg" src="../images/logo.png" width="190" height="40" /></div>
+				
+			</div>
+			<div id="header-right">
+				<form action="" method="post">
+				  <font color="#F8FFB2">用户名：</font>
+				  <input class="input1" type="text" name="username" value="请输入用户名"/><br>
+				  <font color="#F8FFB2">密码：</font>
+			      <input class="input1" type="password" name="password" />
+				  <input class="input1" type="submit" value="登录">
+				</form>
+			</div>
+		  <div id="menu">
+				<ul>
+					<li><a class="link1" href="../main.html">本站主页</a></li>
+					<li><a class="link1" href="../interduction.html">关于本站</a></li>
+					<li><a class="link1" href="../source.html">学习资源</a></li>
+					<li><a class="link1" href="../codes.html">代码共享</a></li>
+					<li><a class="link1" href="../community.html">交流讨论</a></li>
+					<li><a class="link1" href="../link.html">友情链接</a></li>
+				  <li><a class="link1" href="../about.html">关于我们</a></li>
+				</ul>
+			</div>
+		  <div id="content">
+		  		<div id="content-up">
+		  			<form action="">
+						<select name="type" id="type">
+							<option id="source">资源</option>
+							<option id="question">问题</option>
+							<option id="code">代码</option>
+						</select>
+						<select name="language" id="language">
+							<option id="java">Java</option>
+							<option id="C">C</option>
+							<option id="C++">C++</option>
+						</select>
+						<input type="text" id="search" name="search">
+						<input type="submit" value="搜索">
+					</form>
+		  		</div>
+		  		<div id="content-middle"></div>
+		  		<div id="content-down">
+		  			<form name="f" id="form" action="http://www.baidu.com/s" class="fm" onSubmit="javascript:F.call('ps/sug','pssubmit');" target="_blank">
+		  				<input type="text" class="s_ipt" name="wd" id="kw" maxlength="100" autocomplete="off" />
+		  				<input type="submit" value="百度一下" id="su" class="btn self-btn bg s_btn"> 
+		  			</form>
+		  		</div>
+				
+			</div>
+		  <div id="footer">
+				Copyright 网站素材均来源于网络
+			</div>
+	</div>
+	</body>
+</html>
