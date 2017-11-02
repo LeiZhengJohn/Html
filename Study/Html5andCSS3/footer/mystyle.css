@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Microsoft YaHei;
+    text-align: center;
+}
+
+#footer,#footer a{
+    color: #555555;
+}
