@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#tuo {
+    background: #e54d26;
+    width: 540px;
+    height: 320px;
+}
+
+#cun{
+    width: 540px;
+    height: 320px;
+    border: 2px solid #d2d2d2;
+    box-shadow: 1px 4px 8px #646464;
+}

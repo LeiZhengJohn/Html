@@ -1,0 +1,58 @@
+
+:root{
+    background: #126fb0;
+}
+
+:empty{
+    background: #ff6600;
+}
+
+:target{
+    background: #000;
+    color: #fff;
+}
+
+body *:not(h1){
+    background: #ffffff;
+}
+
+p.left{
+    text-align: left;
+    color: red;
+}
+p.right{
+    text-align: right;
+    color: green;
+}
+a:link{
+    color: #000;
+}
+a:visited{
+    color: fuchsia;
+}
+a:hover{
+    color :green;
+}
+a:active{
+    color: #ff6600;
+}
+
+p:first-line{
+    font-size: 25px;
+}
+p:first-letter{
+    font-size: 50px;
+    color: purple;
+}
+
+li{
+    list-style: none;
+}
+li:before{
+    content:"...";
+    color: red;
+}
+li:after{
+    content: "__after追加";
+    color: #ff6600;
+}

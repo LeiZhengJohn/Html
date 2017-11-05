@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	 font-family: Microsoft YaHei;
+	 text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #ff6600;
+}
+
+hgroup{
+    margin-bottom: 10px;
+}
+
+nav{
+    height: 48px;
+    background: #ff6600;
+}
+
+nav li{
+    float: left;
+    background: #000000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px;
+    list-style: none;
+}
