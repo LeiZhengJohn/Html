@@ -1,4 +1,0 @@
-ID	Gene Name	Species	GOTERM_BP_DIRECT	GOTERM_CC_DIRECT	GOTERM_MF_DIRECT
-ELAVL3	ELAV like RNA binding protein 3(ELAVL3)	Homo sapiens	GO:0007399~nervous system development,GO:0030154~cell differentiation,		GO:0000166~nucleotide binding,GO:0003676~nucleic acid binding,GO:0003723~RNA binding,GO:0017091~AU-rich element binding,
-STH	saitohin(STH)	Homo sapiens		GO:0005634~nucleus,GO:0005737~cytoplasm,
-SLC25A41	solute carrier family 25 member 41(SLC25A41)	Homo sapiens	GO:0006412~translation,GO:0055085~transmembrane transport,	GO:0005743~mitochondrial inner membrane,GO:0016021~integral component of membrane,	GO:0003735~structural constituent of ribosome,
