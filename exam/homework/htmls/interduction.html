@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于本站</title>
+		<link rel="stylesheet" type="text/css" href="../mystyle.css">
+		<script src="../jquery-3.2.1.js"></script>
+		<script language="javascript">
+			function changeColor(){
+				document.getElementById("p1").style.color="blue";
+			}
+			function changePicture(){
+				document.getElementById("pic1").src="../images/introduction2.jpg";
+			}
+		</script>
+		<script language="javascript">
+			$(document).ready(function(){  
+				$("#p2").click(function(){
+					setInterval(function(){
+						var color = "rgb("+parseInt(255*Math.random())+","+parseInt(255*Math.random())+","+parseInt(255*Math.random())+")";
+						$("#p2").css("color",color);
+					},500);
+				});
+				
+			});
+		</script>
+	</head>
+		
+	<body>
+		<div id="interc">
+			<div id="interc-up">
+				<p class="p1" id="p1" onClick="changeColor()">
+					<img src="../images/interduction1.jpg" alt="编程人员" align="left" height="120px" id="pic1" onClick="changePicture()">
+					本站为热爱编程的您提供了许多有用的资料供您学习，均由站主收集整理。
+					如果您想了解学习一门语言，请在主页中点击学习资源，里面有丰富的视频或书籍资料。
+					如果您想共享或借鉴他人的代码，您可以去代码共享板块看看。
+					另外如果您有什么编程方面的问题，您可以在交流讨论中提问或留言。
+					如果您在使用中遇到什么问题，也欢迎您在关于我们中联系站主，感谢您的使用与支持！
+					<a href="main.php">返回主页</a>
+				</p>
+			</div>
+			<div id="interc-down">
+				<div class="transbox">
+					<p class="p2" id="p2" onClick="changeColors()">
+						<span id="sp1">建</span>议：
+						很多人都说最好通过C入门，但是我自身经验告诉我，最好先从一门脚本语言入门，如我的入门是通过PHP。一开始接触C语言，老是对着一个黑洞洞的框，容易使人丧失兴趣。这些黑框和我们常见的QQ、Office等桌面程序相差实在太远了。而且往往在初学的时候没有人告诉我们控制台应用和图形界面的应用之间的关系。如果对Web感兴趣可以先学点基础的HTML和CSS虽然这在严格意义上不算是编程语言，但是却可以在一开始让你做出一个可以看的到的界面，而且掌握基础还是很简单的，然后在学点后台开发语言，我推荐PHP或者python。记住，新手最重要的是保持热情！学习一段时间之后可以自己尝试做一个简单的留言板，别小看这个老土的小东西，这个可是能让你立刻充满成就感。而如果你一开始就上手C这样的成就感就需要更久才能获得，而往往很多新手都躺在了前进的路上。然后，可以在留言板的基础上做出一个简单的博客系统。记住一定要在每一阶段都做出一个看上去"正常"的东西，而不是一堆代码一执行出来一行行字符那种。这也是我推荐学习HTML和CSS的原因，因为这可以让你简单地搭建一个拥有用户界面的程序。当你把这些都做完了，如果感到对编程还是有很大兴趣，而且感到自己在渐渐地从心底里喜欢上了编程，那么你再面对那些黑框的时候，就会感觉好很多，而且感到自己真的很酷，你会喜欢把自己想成电影里的黑客。至于说算法数据结构，等有了兴趣，需要这些知识了，再去慢慢学习，都不会是障碍，而且会变得有趣许多。但是一开始没有任何程序基础，就给你学这些，只能使你迷糊，根本不了解这又什么用。这也是我讨厌现在的大学教育的一个方面，完全违背认知规律。先给你讲一大堆理论，不告诉你为什么，有什么用，让人感到厌恶，但当后来我们真正需要了，却也记不得了，只能从头再学。最后，我还是要补充一下，对于新接触编程的童鞋，或许保持兴趣是最重要的，但是在你对编程有一定了解之后，你会发现自己还有很多困惑，这时候就需要恶补基础知识了，对底层了解的越清楚越有助于你消除困惑和对编程更深层的理解。
+						
+					</p>
+				</div>
+			</div>
+			
+		</div>
+		
+	</body>
+</html>
